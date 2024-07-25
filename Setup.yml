@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=https://taskfile.dev/schema.json
+version: "3"
+
+tasks:
+  setup:
+    deps:
+      - setup-config
+
+  setup-dotconfig:
+    cmds:
+      - mkdir -p ~/.config
+      - ln -sfn $(pwd)/config ~/.config
