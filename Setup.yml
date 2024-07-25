@@ -8,5 +8,5 @@ tasks:
 
   setup-dotconfig:
     cmds:
-      - mkdir -p ~/.config
-      - ln -sfn $(pwd)/config ~/.config
+      - mkdir -p ~/.config/bottom
+      - ln -sfn $(pwd)/config/bottom/bottom.toml ~/.config/bottom/bottom.toml
