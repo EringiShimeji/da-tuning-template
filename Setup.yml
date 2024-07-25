@@ -4,7 +4,7 @@ version: "3"
 tasks:
   setup:
     deps:
-      - setup-config
+      - setup-dotconfig
 
   setup-dotconfig:
     cmds:
