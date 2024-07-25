@@ -9,4 +9,4 @@ tasks:
   setup-dotconfig:
     cmds:
       - mkdir -p ~/.config/bottom
-      - ln -sfn $(pwd)/config/bottom/bottom.toml ~/.config/bottom/bottom.toml
+      - ln -sfn {{.TASKFILE_DIR}}/config/bottom/bottom.toml ~/.config/bottom/bottom.toml
